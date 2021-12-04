@@ -1,9 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const dotenv = require('dotenv');
-const cors = require('cors');
-// to recive data from form
+const cors = require('cors')
 
 app.use(cors())
 
@@ -17,4 +15,4 @@ app.use(express.json());
 const moviesRouter = require("./routes/movies");
 app.use("/movies", moviesRouter);
 
-app.listen(process.env.PORT||3000, () => console.log("Server Started"));
+app.listen(process.env.PORT || 3000, () => console.log("Server Started"));

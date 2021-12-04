@@ -1,7 +1,7 @@
 {
-  "name": "api_aha",
+  "name": "express-rest",
   "version": "1.0.0",
-  "description": "aha api",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node app.js"
@@ -17,13 +17,5 @@
   "devDependencies": {
     "dotenv": "^8.0.0",
     "nodemon": "^1.19.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/govinduchaitanyakrishna/api_aha.git"
-  },
-  "bugs": {
-    "url": "https://github.com/govinduchaitanyakrishna/api_aha/issues"
-  },
-  "homepage": "https://github.com/govinduchaitanyakrishna/api_aha#readme"
+  }
 }
